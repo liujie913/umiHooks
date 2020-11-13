@@ -9,7 +9,6 @@ export default () => {
       <div>Time: {Date.now()}</div>
       <Button onClick={update}>update</Button>
     </>
-
   );
 
 }

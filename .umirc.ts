@@ -85,5 +85,41 @@ export default defineConfig({
         },
       ],
     },
+    {
+      name: 'state',
+      path: '/state',
+      routes: [
+        {
+          name: 'boolean',
+          path: '/state/demo1',
+          component: './state/demo1'
+        },
+        {
+          name: 'counter',
+          path: '/state/demo2',
+          component: './state/demo2'
+        },
+        {
+          name: 'localstorage',
+          path: '/state/demo3',
+          component: './state/demo3'
+        },
+        {
+          name: 'map',
+          path: '/state/demo4',
+          component: './state/demo4'
+        },
+        {
+          name: 'previous',
+          path: '/state/demo5',
+          component: './state/demo5'
+        },
+        {
+          name: 'toggle',
+          path: '/state/demo6',
+          component: './state/demo6'
+        },
+      ],
+    }
   ],
 });
