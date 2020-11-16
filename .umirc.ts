@@ -120,6 +120,53 @@ export default defineConfig({
           component: './state/demo6'
         },
       ],
+    },
+    {
+      name: 'dom',
+      path: '/dom',
+      routes: [
+        {
+          name: 'clickAway',
+          path: '/dom/demo1',
+          component: './dom/demo1'
+        },
+        {
+          name: 'eventListener',
+          path: '/dom/demo2',
+          component: './dom/demo2'
+        },
+        {
+          name: 'eventTarget',
+          path: '/dom/demo3',
+          component: './dom/demo3'
+        },
+        {
+          name: 'fullScreen',
+          path: '/dom/demo4',
+          component: './dom/demo4'
+        },
+        {
+          name: 'hover',
+          path: '/dom/demo5',
+          component: './dom/demo5'
+        },
+        {
+          name: 'keyPress',
+          path: '/dom/demo6',
+          component: './dom/demo6'
+        },
+      ],
+    },
+    {
+      name: 'react',
+      path: '/react',
+      routes: [
+        {
+          name: 'hello',
+          path: '/react/demo1',
+          component: './react/demo1'
+        },
+      ],
     }
   ],
 });
